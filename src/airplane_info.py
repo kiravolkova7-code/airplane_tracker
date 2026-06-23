@@ -50,6 +50,14 @@ class AirplaneInfo:
             return False
         return self.icao24 == other.icao24
 
+    def __gt__(self, other):
+        """
+        Сравнение "больше чем".
+        """
+        if not isinstance(other, AirplaneInfo):
+            return NotImplemented
+        return self.altitude > other.altitude
+
     def __str__(self):
         """Возвращает человекочитаемое представление объекта."""
         return (f"Самолет {self.callsign} (ICAO24: {self.icao24}) из {self.country}. "
