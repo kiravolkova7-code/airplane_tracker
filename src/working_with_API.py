@@ -47,7 +47,7 @@ class OpenSkyApiClient(ApiClient):
         self.session = requests.Session()
 
     def _make_request(self, url, params):
-        response = self.session.get(url, params=params)
+        response = self.session.get(url, params=params, timeout=10)
         response.raise_for_status()
         return response.json()
 
