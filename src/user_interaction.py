@@ -5,13 +5,16 @@ from src.airplane_info import AirplaneInfo, JsonAirplaneStorage
 import time
 
 def main():
+    """
+    Главная функция программы. Выполняет все шаги: от запроса страны до вывода топ-N самолетов.
+    """
+    # 1. Инициализация клиентов и хранилища
     nominatim_client = NominatimApiClient(user_agent="my_app/1.0")
     opensky_client = OpenSkyApiClient()
     storage = JsonAirplaneStorage()
 
-    # 1. Запрос страны и получение её границ
+    # 2. Запрос страны и получение её границ
     country_name = input("Введите название страны (например, 'Russia'): ").strip()
-
     try:
         start_time = time.time()
         bbox = nominatim_client.get_country_bounding_box(country_name)
@@ -30,7 +33,6 @@ def main():
 
     # Запрос у пользователя более точной области
     try:
-        # Предлагаем пользователю ввести координаты или использовать часть от полученных границ
         user_lamin = float(input(f"Введите минимальную широту (например, {lamin}): "))
         user_lamax = float(input(f"Введите максимальную широту (например, {lamax}): "))
         user_lomin = float(input(f"Введите минимальную долготу (например, {lomin}): "))
@@ -40,15 +42,13 @@ def main():
         if not (user_lamin < user_lamax and user_lomin < user_lomax):
             print("[ERROR] Ошибка: минимальная координата должна быть меньше максимальной.")
             return
-
-        # Используем введенные пользователем координаты для финального запроса
         lamin, lamax, lomin, lomax = user_lamin, user_lamax, user_lomin, user_lomax
 
     except ValueError:
         print("[ERROR] Ошибка: введите числовые значения для координат.")
         return
 
-    # 2. Запрос количества самолетов (N)
+        # 2. Запрос количества самолетов (N)
     try:
         n = int(input("Введите количество самолетов для топа по высоте: ").strip())
         if n <= 0:
@@ -66,7 +66,6 @@ def main():
         elapsed_time = time.time() - start_time
         print(f"[DEBUG] Время запроса к OpenSky API: {elapsed_time:.2f} сек.")
     except Exception as e:
-        # Этот блок сработает только если запрос вернет ошибку HTTP
         print(f"[ERROR] Ошибка при запросе к OpenSky API: {e}")
         return
 
@@ -75,7 +74,7 @@ def main():
         print("[INFO] В указанной области самолеты не обнаружены.")
         return
 
-    # 4. Вывод результатов (теперь это будет работать быстро)
+    # 4. Вывод результатов
     print(f"\n[INFO] Успешно получено {len(aircraft_list)} самолетов.")
 
     # Сохранение данных в хранилище (может занять время при большом N)
