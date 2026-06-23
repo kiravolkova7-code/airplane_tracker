@@ -1,8 +1,7 @@
-import os
-from typing import List
 from src.working_with_API import OpenSkyApiClient, NominatimApiClient
-from src.airplane_info import AirplaneInfo, JsonAirplaneStorage
+from src.airplane_info import JsonAirplaneStorage
 import time
+
 
 def main():
     """
