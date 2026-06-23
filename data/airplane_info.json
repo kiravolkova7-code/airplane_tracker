@@ -14569,5 +14569,221 @@
     "longitude": -147.8458,
     "altitude": 1782238610.0,
     "speed": 8.75
+  },
+  {
+    "icao24": "600852",
+    "callsign": "AHY805",
+    "country": "Azerbaijan",
+    "latitude": 55.5185,
+    "longitude": 37.491,
+    "altitude": 1782242892.0,
+    "speed": 84.02
+  },
+  {
+    "icao24": "152007",
+    "callsign": "",
+    "country": "Russian Federation",
+    "latitude": 55.9734,
+    "longitude": 37.3994,
+    "altitude": 1782242692.0,
+    "speed": 5.14
+  },
+  {
+    "icao24": "781704",
+    "callsign": "CSN8172",
+    "country": "China",
+    "latitude": 58.1686,
+    "longitude": 39.0124,
+    "altitude": 1782241409.0,
+    "speed": 28.01
+  },
+  {
+    "icao24": "155c11",
+    "callsign": "SDM6182",
+    "country": "Russian Federation",
+    "latitude": 55.3315,
+    "longitude": 37.0536,
+    "altitude": 1782240458.0,
+    "speed": 162.16
+  },
+  {
+    "icao24": "510077",
+    "callsign": "BRU978",
+    "country": "Belarus",
+    "latitude": 55.7078,
+    "longitude": 35.1695,
+    "altitude": 1782242796.0,
+    "speed": 210.26
+  },
+  {
+    "icao24": "151e62",
+    "callsign": "",
+    "country": "Russian Federation",
+    "latitude": 57.4798,
+    "longitude": 38.3811,
+    "altitude": 1782242883.0,
+    "speed": 214.77
+  },
+  {
+    "icao24": "09a05f",
+    "callsign": "C5FLY",
+    "country": "Gambia",
+    "latitude": 55.9767,
+    "longitude": 37.401,
+    "altitude": 1782242712.0,
+    "speed": 27.7
+  },
+  {
+    "icao24": "89656f",
+    "callsign": "ETD844",
+    "country": "United Arab Emirates",
+    "latitude": 55.9665,
+    "longitude": 37.4253,
+    "altitude": 1782243074.0,
+    "speed": 27.73
+  },
+  {
+    "icao24": "151dd4",
+    "callsign": "AFL1458",
+    "country": "Russian Federation",
+    "latitude": 55.977,
+    "longitude": 37.4157,
+    "altitude": 1782243138.0,
+    "speed": 3.34
+  },
+  {
+    "icao24": "68322e",
+    "callsign": "BEC001",
+    "country": "Kazakhstan",
+    "latitude": 54.7062,
+    "longitude": 31.902,
+    "altitude": 1782243360.0,
+    "speed": 27.97
+  },
+  {
+    "icao24": "4baa6d",
+    "callsign": "THY8CD",
+    "country": "Turkey",
+    "latitude": 54.9361,
+    "longitude": 31.2995,
+    "altitude": 1782243377.0,
+    "speed": 58.68
+  },
+  {
+    "icao24": "1506aa",
+    "callsign": "RA67242",
+    "country": "Russian Federation",
+    "latitude": 55.8846,
+    "longitude": 37.2358,
+    "altitude": 1782243584.0,
+    "speed": 28.83
+  },
+  {
+    "icao24": "155c05",
+    "callsign": "AZO7071",
+    "country": "Russian Federation",
+    "latitude": 55.5546,
+    "longitude": 37.6406,
+    "altitude": 1782243547.0,
+    "speed": 97.77
+  },
+  {
+    "icao24": "14fa3b",
+    "callsign": "RSD844",
+    "country": "Russian Federation",
+    "latitude": 59.842,
+    "longitude": 30.0121,
+    "altitude": 1782243914.0,
+    "speed": 113.91
+  },
+  {
+    "icao24": "4baa5a",
+    "callsign": "THY1HC",
+    "country": "Turkey",
+    "latitude": 54.7088,
+    "longitude": 31.9099,
+    "altitude": 1782244105.0,
+    "speed": 27.9
+  },
+  {
+    "icao24": "151e3e",
+    "callsign": "SDM6255",
+    "country": "Russian Federation",
+    "latitude": 55.9807,
+    "longitude": 37.4273,
+    "altitude": 1782244241.0,
+    "speed": 0.9
+  },
+  {
+    "icao24": "155bdb",
+    "callsign": "SDM6184",
+    "country": "Russian Federation",
+    "latitude": 55.5061,
+    "longitude": 37.7534,
+    "altitude": 1782244388.0,
+    "speed": 109.24
+  },
+  {
+    "icao24": "151e10",
+    "callsign": "PBD6521",
+    "country": "Russian Federation",
+    "latitude": 55.9773,
+    "longitude": 37.4302,
+    "altitude": 1782244383.0,
+    "speed": 27.88
+  },
+  {
+    "icao24": "151d50",
+    "callsign": "UTA376",
+    "country": "Russian Federation",
+    "latitude": 57.8114,
+    "longitude": 38.8316,
+    "altitude": 1782244377.0,
+    "speed": 226.55
+  },
+  {
+    "icao24": "4baa41",
+    "callsign": "THY5YG",
+    "country": "Turkey",
+    "latitude": 54.693,
+    "longitude": 31.9228,
+    "altitude": 1782244383.0,
+    "speed": 24.05
+  },
+  {
+    "icao24": "152046",
+    "callsign": "SVR651",
+    "country": "Russian Federation",
+    "latitude": 55.6887,
+    "longitude": 38.9023,
+    "altitude": 1782244694.0,
+    "speed": 3.45
+  },
+  {
+    "icao24": "14fc0b",
+    "callsign": "",
+    "country": "Russian Federation",
+    "latitude": 55.5793,
+    "longitude": 37.217,
+    "altitude": 1782244716.0,
+    "speed": 98.77
+  },
+  {
+    "icao24": "510080",
+    "callsign": "BRU992",
+    "country": "Belarus",
+    "latitude": 55.9886,
+    "longitude": 37.4189,
+    "altitude": 1782244731.0,
+    "speed": 24.46
+  },
+  {
+    "icao24": "151d69",
+    "callsign": "UTA363",
+    "country": "Russian Federation",
+    "latitude": 55.5038,
+    "longitude": 37.1599,
+    "altitude": 1782245033.0,
+    "speed": 140.16
   }
 ]
