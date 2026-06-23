@@ -1,4 +1,3 @@
-import pytest
 from src.airplane_info import AirplaneInfo
 
 # Тестовые данные
