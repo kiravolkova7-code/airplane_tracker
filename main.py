@@ -1,26 +1,93 @@
-from src.working_with_API import *
+import requests
+from src.airplane_info import AirplaneInfo
+from src.working_with_API import OpenSkyApiClient, NominatimApiClient
+# test_storage.py
+import os
+# Импортируем наш основной модуль с классами
+# Если классы находятся в файле main.py, используйте: from main import JsonAirplaneStorage, AirplaneInfo
+from src.airplane_info import JsonAirplaneStorage, AirplaneInfo
+
+def main():
+    # 1. Создаем экземпляр хранилища.
+    # По умолчанию он будет использовать файл 'data/airplane_info.json'.
+    storage = JsonAirplaneStorage()
+
+    # 2. Создаем несколько объектов AirplaneInfo.
+    # Данные передаются в виде списка, как это делает API OpenSky.
+    plane1 = AirplaneInfo([
+        "a1b2c3",  # ICAO24
+        "AAL123",  # CALLSIGN
+        "United States", # COUNTRY
+        10000,     # ALTITUDE
+        None,
+        -97.0,     # LONGITUDE
+        37.0,      # LATITUDE
+        None, None,
+        450.0      # SPEED
+    ])
+
+    plane2 = AirplaneInfo([
+        "d4e5f6",
+        "BAW456",
+        "United Kingdom",
+        12000,
+        None,
+        -0.1,      # LONGITUDE (Лондон)
+        51.5,      # LATITUDE (Лондон)
+        None, None,
+        480.0
+    ])
+
+    plane3 = AirplaneInfo([
+        "a1b2c3",  # Тот же ICAO24, что и у plane1
+        "AAL123-NEW", # Другой позывной
+        "United States",
+        11000,
+        None,
+        -97.1,
+        37.1,
+        None, None,
+        460.0
+    ])
+
+    print("--- Добавление данных в хранилище ---")
+    # 3. Добавляем самолеты в хранилище.
+    storage.add_airplane_info(plane1)
+    storage.add_airplane_info(plane2)
+    print("Добавлены два самолета.\n")
+
+    # 4. Попытка добавить дубликат (по ICAO24).
+    # Метод add_airplane_info проверяет на уникальность, поэтому plane3 не будет добавлен.
+    print("Попытка добавить самолет с существующим ICAO24...")
+    storage.add_airplane_info(plane3)
+    print("Дубликат не добавлен.\n")
+
+    print("--- Поиск данных в хранилище ---")
+    # 5. Поиск по стране.
+    us_planes = storage.get_airplane_info(country="United States")
+    print(f"Найдено самолетов из США: {len(us_planes)}")
+    for p in us_planes:
+        print(f"  - {p.callsign} на высоте {p.altitude}м")
+
+    # 6. Поиск по позывному (callsign).
+    london_planes = storage.get_airplane_info(callsign="BAW456")
+    print(f"\nНайдено самолетов с позывным BAW456: {len(london_planes)}")
+    for p in london_planes:
+        print(f"  - {p.country}, координаты: {p.latitude}, {p.longitude}")
+
+    # 7. Поиск по нескольким критериям.
+    high_planes = storage.get_airplane_info(country="United States", altitude=11000)
+    print(f"\nНайдено самолетов из США на высоте 11000м: {len(high_planes)}")
+
+    print("\n--- Удаление данных из хранилища ---")
+    # 8. Удаление самолета по позывному.
+    deleted_count = storage.delete_airplane_info(callsign="BAW456")
+    print(f"Удалено записей по позывному BAW456: {deleted_count}")
+
+    # 9. Проверяем, что самолет действительно удален.
+    london_planes_after = storage.get_airplane_info(callsign="BAW456")
+    print(f"Самолетов с позывным BAW456 после удаления: {len(london_planes_after)}")
+
 
 if __name__ == "__main__":
-    # Задаем имя страны
-    country = "Canada"
-
-    # Создаем клиент для OSM и получаем координаты
-    osm_client = NominatimApiClient(user_agent="my-university-coursework/1.0")
-    bbox = osm_client.get_country_bounding_box(country)
-
-    if bbox is None:
-        print(f"Не удалось найти страну '{country}'")
-    else:
-        south, north, west, east = map(float, bbox)
-        print(f"Координаты {country}: Юг={south}, Север={north}, Запад={west}, Восток={east}")
-
-        # Создаем клиент для OpenSky и запрашиваем данные о самолетах
-        sky_client = OpenSkyApiClient()
-        aircraft_data = sky_client.get_aircraft_in_area(south, north, west, east)
-
-        # Обрабатываем полученные данные
-        states = aircraft_data.get('states', [])
-        print(f"\nНайдено самолетов в воздушном пространстве {country}: {len(states)}")
-        for state in states[:5]:  # Покажем первые 5 для примера
-            callsign = state[1].strip() if state[1] else "Нет данных"
-            print(f"- Борт: {callsign}, Высота: {state[7]} м, Скорость: {state[9]} узлов")
+    main()

@@ -1,0 +1,11 @@
+[
+  {
+    "icao24": "a1b2c3",
+    "callsign": "AAL123",
+    "country": "United States",
+    "latitude": 37.0,
+    "longitude": -97.0,
+    "altitude": 10000.0,
+    "speed": 450.0
+  }
+]

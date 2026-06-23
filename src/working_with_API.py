@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from src.airplane_info import AirplaneInfo
 import requests
 
 
@@ -59,4 +60,17 @@ class OpenSkyApiClient(ApiClient):
             'lomax': lomax,
             'time': time
         }
-        return self.get_data(endpoint, params)
+
+        response_data = self.get_data(endpoint, params)
+        raw_aircraft_list = response_data.get('states', [])
+
+        # Преобразуем каждый элемент списка в объект AirplaneInfo
+        aircraft_objects = []
+        for raw_data in raw_aircraft_list:
+            try:
+                aircraft = AirplaneInfo(raw_data)
+                aircraft_objects.append(aircraft)
+            except ValueError as e:
+                print(f"Пропущен самолет из-за ошибки валидации: {e}")
+
+        return aircraft_objects
