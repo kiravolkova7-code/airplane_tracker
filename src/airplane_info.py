@@ -11,6 +11,7 @@ ALTITUDE = 3
 SPEED = 9
 ICAO24 = 0
 
+
 class AirplaneInfo:
     """
     Класс для хранения информации о самолете.
@@ -64,7 +65,6 @@ class AirplaneInfo:
                 f"Текущие координаты: {self.latitude:.2f}, {self.longitude:.2f}. "
                 f"Летит на высоте {self.altitude} м со скоростью {self.speed} узлов.")
 
-
     def to_dict(self):
         """Преобразует объект в словарь для сохранения в JSON."""
         return {
@@ -110,6 +110,7 @@ class AirplaneStorage(ABC):
     @abstractmethod
     def delete_airplane_info(self, **criteria):
         pass
+
 
 class JsonAirplaneStorage(AirplaneStorage):
     """
