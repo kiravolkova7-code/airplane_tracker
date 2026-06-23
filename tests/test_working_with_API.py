@@ -1,6 +1,7 @@
 import pytest
 from unittest.mock import MagicMock
-from src.working_with_API import *
+from src.working_with_API import NominatimApiClient, OpenSkyApiClient
+import requests
 
 
 @pytest.fixture
@@ -20,7 +21,6 @@ def mock_requests(monkeypatch):
 
 
 # Тесты для класса NominatimApiClient
-
 def test_nominatim_client_get_data_calls_make_request(mock_requests):
     """Проверяем, что get_data вызывает _make_request с правильными аргументами."""
     client = NominatimApiClient(user_agent="TestAgent")
@@ -46,7 +46,6 @@ def test_nominatim_client_get_country_bounding_box_not_found(mock_requests):
 
 
 # Тесты для класса OpenSkyApiClient
-
 def test_opensky_client_get_aircraft_in_area(mock_requests):
     """Проверяем формирование запроса к OpenSky API."""
     client = OpenSkyApiClient()
