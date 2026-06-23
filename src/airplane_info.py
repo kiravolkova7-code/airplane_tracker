@@ -11,7 +11,6 @@ ICAO24 = 0
 class AirplaneInfo:
     """
     Класс для хранения информации о самолете.
-    Инициализируется данными из ответа API OpenSky (в виде списка).
     """
     def __init__(self, data):
         if not isinstance(data, list) or len(data) <= max(ICAO24, SPEED):
