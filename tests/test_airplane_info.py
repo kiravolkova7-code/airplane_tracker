@@ -149,3 +149,25 @@ def test_prevent_duplicates(temp_storage, sample_plane_object):
 
     found_planes = temp_storage.get_airplane_info()
     assert len(found_planes) == 1
+
+
+def test_speed_comparison():
+    """Проверяет поиск по критерию скорость."""
+    data_fast = VALID_PLANE_DATA.copy()
+    data_fast[9] = 500.0
+    data_slow = VALID_PLANE_DATA.copy()
+    data_slow[9] = 200.0
+
+    plane_fast = AirplaneInfo(data_fast)
+    plane_slow = AirplaneInfo(data_slow)
+
+    assert plane_fast.is_faster_than(plane_slow)
+    assert not plane_slow.is_faster_than(plane_fast)
+
+def test_delete_airplane(temp_storage, sample_plane_object):
+    """Проверяет функцию удаления элемента из JSON-файла."""
+    temp_storage.add_airplane_info(sample_plane_object)
+    deleted_count = temp_storage.delete_airplane_info(icao24="a1b2c3")
+
+    assert deleted_count == 1
+    assert temp_storage.get_airplane_info(icao24="a1b2c3") == []

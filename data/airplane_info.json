@@ -30418,5 +30418,2030 @@
     "longitude": -72.2773,
     "altitude": 1782247286.0,
     "speed": 47.16
+  },
+  {
+    "icao24": "39ceb4",
+    "callsign": "TVF14XM",
+    "country": "France",
+    "latitude": 37.9222,
+    "longitude": 23.4322,
+    "altitude": 1782479560.0,
+    "speed": 252.42
+  },
+  {
+    "icao24": "39ceb7",
+    "callsign": "TVF11UE",
+    "country": "France",
+    "latitude": 34.6612,
+    "longitude": -9.8747,
+    "altitude": 1782479560.0,
+    "speed": 260.64
+  },
+  {
+    "icao24": "39ceac",
+    "callsign": "TVF78NH",
+    "country": "France",
+    "latitude": 39.9305,
+    "longitude": 4.348,
+    "altitude": 1782479560.0,
+    "speed": 215.87
+  },
+  {
+    "icao24": "39cea2",
+    "callsign": "TVF8026",
+    "country": "France",
+    "latitude": 33.0846,
+    "longitude": -7.5171,
+    "altitude": 1782479559.0,
+    "speed": 207.95
+  },
+  {
+    "icao24": "3949e8",
+    "callsign": "AFR828",
+    "country": "France",
+    "latitude": 30.7888,
+    "longitude": 27.7498,
+    "altitude": 1782479544.0,
+    "speed": 255.12
+  },
+  {
+    "icao24": "39d305",
+    "callsign": "TVF8045",
+    "country": "France",
+    "latitude": 36.4589,
+    "longitude": 17.0617,
+    "altitude": 1782479561.0,
+    "speed": 240.62
+  },
+  {
+    "icao24": "39d307",
+    "callsign": "TVF89TU",
+    "country": "France",
+    "latitude": 38.3274,
+    "longitude": 20.8732,
+    "altitude": 1782479560.0,
+    "speed": 231.0
+  },
+  {
+    "icao24": "3991ea",
+    "callsign": "AFR1596",
+    "country": "France",
+    "latitude": 36.7017,
+    "longitude": -4.5687,
+    "altitude": 1782479560.0,
+    "speed": 215.22
+  },
+  {
+    "icao24": "392af4",
+    "callsign": "AFR97PD",
+    "country": "France",
+    "latitude": 39.5737,
+    "longitude": -7.1848,
+    "altitude": 1782479560.0,
+    "speed": 192.57
+  },
+  {
+    "icao24": "392aeb",
+    "callsign": "AFR41BL",
+    "country": "France",
+    "latitude": 38.9886,
+    "longitude": 20.5618,
+    "altitude": 1782479560.0,
+    "speed": 246.59
+  },
+  {
+    "icao24": "399264",
+    "callsign": "CRL907",
+    "country": "France",
+    "latitude": 30.7894,
+    "longitude": 27.8565,
+    "altitude": 1782479220.0,
+    "speed": 241.67
+  },
+  {
+    "icao24": "396446",
+    "callsign": "AFR848",
+    "country": "France",
+    "latitude": 37.6715,
+    "longitude": 6.3393,
+    "altitude": 1782479492.0,
+    "speed": 263.62
+  },
+  {
+    "icao24": "395184",
+    "callsign": "ITI051P",
+    "country": "France",
+    "latitude": 36.5992,
+    "longitude": -4.3921,
+    "altitude": 1782479560.0,
+    "speed": 91.23
+  },
+  {
+    "icao24": "3964ec",
+    "callsign": "TVF112Q",
+    "country": "France",
+    "latitude": 37.3047,
+    "longitude": 1.1511,
+    "altitude": 1782479560.0,
+    "speed": 226.48
+  },
+  {
+    "icao24": "3964f2",
+    "callsign": "FPO769",
+    "country": "France",
+    "latitude": 36.9312,
+    "longitude": -4.9271,
+    "altitude": 1782479560.0,
+    "speed": 129.64
+  },
+  {
+    "icao24": "3964f8",
+    "callsign": "TVF70LT",
+    "country": "France",
+    "latitude": 37.418,
+    "longitude": -5.8872,
+    "altitude": 1782479521.0,
+    "speed": 63.28
+  },
+  {
+    "icao24": "39c5c8",
+    "callsign": "OYO6",
+    "country": "France",
+    "latitude": 37.7528,
+    "longitude": 0.1194,
+    "altitude": 1782479560.0,
+    "speed": 184.86
+  },
+  {
+    "icao24": "399893",
+    "callsign": "FHGET",
+    "country": "France",
+    "latitude": 38.4542,
+    "longitude": 1.8306,
+    "altitude": 1782479559.0,
+    "speed": 135.35
+  },
+  {
+    "icao24": "0d11e4",
+    "callsign": "VIV3044",
+    "country": "Mexico",
+    "latitude": 19.0025,
+    "longitude": -96.2165,
+    "altitude": 1782480684.0,
+    "speed": 79.45
+  },
+  {
+    "icao24": "0d1258",
+    "callsign": "",
+    "country": "Mexico",
+    "latitude": 16.5161,
+    "longitude": -94.9964,
+    "altitude": 1782480585.0,
+    "speed": 223.88
+  },
+  {
+    "icao24": "0d120c",
+    "callsign": "MXA1760",
+    "country": "Mexico",
+    "latitude": 19.7628,
+    "longitude": -95.644,
+    "altitude": 1782480685.0,
+    "speed": 234.72
+  },
+  {
+    "icao24": "0d111d",
+    "callsign": "XCLKW",
+    "country": "Mexico",
+    "latitude": 19.3212,
+    "longitude": -98.8022,
+    "altitude": 1782480498.0,
+    "speed": 64.71
+  },
+  {
+    "icao24": "0d1138",
+    "callsign": "VIV1016",
+    "country": "Mexico",
+    "latitude": 19.3043,
+    "longitude": -97.9939,
+    "altitude": 1782480684.0,
+    "speed": 221.75
+  },
+  {
+    "icao24": "0d12f1",
+    "callsign": "VIV9244",
+    "country": "Mexico",
+    "latitude": 19.682,
+    "longitude": -99.0872,
+    "altitude": 1782480685.0,
+    "speed": 225.56
+  },
+  {
+    "icao24": "0d06de",
+    "callsign": "SLI814",
+    "country": "Mexico",
+    "latitude": 18.9624,
+    "longitude": -94.4523,
+    "altitude": 1782480684.0,
+    "speed": 237.76
+  },
+  {
+    "icao24": "0d076a",
+    "callsign": "XAANA",
+    "country": "Mexico",
+    "latitude": 17.6558,
+    "longitude": -97.6725,
+    "altitude": 1782480684.0,
+    "speed": 130.79
+  },
+  {
+    "icao24": "0d0703",
+    "callsign": "SLI871",
+    "country": "Mexico",
+    "latitude": 19.84,
+    "longitude": -99.2213,
+    "altitude": 1782480664.0,
+    "speed": 126.75
+  },
+  {
+    "icao24": "0d09a5",
+    "callsign": "SLI2642",
+    "country": "Mexico",
+    "latitude": 19.629,
+    "longitude": -98.7922,
+    "altitude": 1782480684.0,
+    "speed": 167.14
+  },
+  {
+    "icao24": "0d08a0",
+    "callsign": "XCHDF",
+    "country": "Mexico",
+    "latitude": 19.3729,
+    "longitude": -99.0444,
+    "altitude": 1782480684.0,
+    "speed": 61.2
+  },
+  {
+    "icao24": "0d0963",
+    "callsign": "VIV4000",
+    "country": "Mexico",
+    "latitude": 19.9617,
+    "longitude": -98.2508,
+    "altitude": 1782480684.0,
+    "speed": 176.45
+  },
+  {
+    "icao24": "0d0984",
+    "callsign": "VOI5616",
+    "country": "Mexico",
+    "latitude": 19.441,
+    "longitude": -99.069,
+    "altitude": 1782480426.0,
+    "speed": 7.72
+  },
+  {
+    "icao24": "0d0ab9",
+    "callsign": "XAVTR",
+    "country": "Mexico",
+    "latitude": 19.4808,
+    "longitude": -99.1072,
+    "altitude": 1782480653.0,
+    "speed": 58.68
+  },
+  {
+    "icao24": "0d0b6a",
+    "callsign": "XAPNG",
+    "country": "Mexico",
+    "latitude": 13.1041,
+    "longitude": -89.0802,
+    "altitude": 1782480684.0,
+    "speed": 139.23
+  },
+  {
+    "icao24": "0d0a4c",
+    "callsign": "SLI377",
+    "country": "Mexico",
+    "latitude": 19.3138,
+    "longitude": -99.175,
+    "altitude": 1782480685.0,
+    "speed": 93.94
+  },
+  {
+    "icao24": "0d0a0f",
+    "callsign": "SLI2601",
+    "country": "Mexico",
+    "latitude": 19.4396,
+    "longitude": -99.066,
+    "altitude": 1782480608.0,
+    "speed": 0.77
+  },
+  {
+    "icao24": "0d0e2f",
+    "callsign": "XAKID",
+    "country": "Mexico",
+    "latitude": 18.7444,
+    "longitude": -99.0295,
+    "altitude": 1782480685.0,
+    "speed": 195.89
+  },
+  {
+    "icao24": "0d0e4b",
+    "callsign": "AMX440",
+    "country": "Mexico",
+    "latitude": 19.8611,
+    "longitude": -97.2963,
+    "altitude": 1782480684.0,
+    "speed": 248.98
+  },
+  {
+    "icao24": "0d0e5a",
+    "callsign": "VIV1100",
+    "country": "Mexico",
+    "latitude": 19.8207,
+    "longitude": -94.6371,
+    "altitude": 1782480684.0,
+    "speed": 247.66
+  },
+  {
+    "icao24": "0d0ccc",
+    "callsign": "XAOAV",
+    "country": "Mexico",
+    "latitude": 19.9637,
+    "longitude": -86.897,
+    "altitude": 1782480684.0,
+    "speed": 173.48
+  },
+  {
+    "icao24": "0d0cce",
+    "callsign": "VOI1398",
+    "country": "Mexico",
+    "latitude": 18.862,
+    "longitude": -98.3678,
+    "altitude": 1782480684.0,
+    "speed": 98.26
+  },
+  {
+    "icao24": "0d0d27",
+    "callsign": "VOI1232",
+    "country": "Mexico",
+    "latitude": 19.8821,
+    "longitude": -96.1864,
+    "altitude": 1782480685.0,
+    "speed": 231.98
+  },
+  {
+    "icao24": "0d09b9",
+    "callsign": "SLI2441",
+    "country": "Mexico",
+    "latitude": 18.7485,
+    "longitude": -98.5043,
+    "altitude": 1782480684.0,
+    "speed": 189.08
+  },
+  {
+    "icao24": "0d09ce",
+    "callsign": "VIV3242",
+    "country": "Mexico",
+    "latitude": 19.1639,
+    "longitude": -98.3752,
+    "altitude": 1782480580.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "0d0dd3",
+    "callsign": "VOI100",
+    "country": "Mexico",
+    "latitude": 19.5251,
+    "longitude": -98.4592,
+    "altitude": 1782480684.0,
+    "speed": 190.2
+  },
+  {
+    "icao24": "0d0de2",
+    "callsign": "AMX821",
+    "country": "Mexico",
+    "latitude": 19.4389,
+    "longitude": -99.0646,
+    "altitude": 1782480684.0,
+    "speed": 17.49
+  },
+  {
+    "icao24": "39de4f",
+    "callsign": "TVF47TR",
+    "country": "France",
+    "latitude": 48.7262,
+    "longitude": 2.3636,
+    "altitude": 1782480852.0,
+    "speed": 1.29
+  },
+  {
+    "icao24": "39de4d",
+    "callsign": "TVF17JX",
+    "country": "France",
+    "latitude": 44.922,
+    "longitude": 11.3681,
+    "altitude": 1782481062.0,
+    "speed": 230.14
+  },
+  {
+    "icao24": "39de57",
+    "callsign": "TVF21ZC",
+    "country": "France",
+    "latitude": 49.9176,
+    "longitude": 13.0038,
+    "altitude": 1782481062.0,
+    "speed": 175.62
+  },
+  {
+    "icao24": "39de53",
+    "callsign": "TVF27AL",
+    "country": "France",
+    "latitude": 48.4128,
+    "longitude": 5.0478,
+    "altitude": 1782481062.0,
+    "speed": 230.35
+  },
+  {
+    "icao24": "39de45",
+    "callsign": "TVF79CL",
+    "country": "France",
+    "latitude": 48.7251,
+    "longitude": 2.3712,
+    "altitude": 1782481062.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "39de49",
+    "callsign": "TVF42VD",
+    "country": "France",
+    "latitude": 48.7312,
+    "longitude": 2.3535,
+    "altitude": 1782480997.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "39de41",
+    "callsign": "TVF8964",
+    "country": "France",
+    "latitude": 41.0299,
+    "longitude": 5.5899,
+    "altitude": 1782481063.0,
+    "speed": 245.14
+  },
+  {
+    "icao24": "39470f",
+    "callsign": "FGRYP",
+    "country": "France",
+    "latitude": 45.9014,
+    "longitude": 5.2815,
+    "altitude": 1782481062.0,
+    "speed": 54.54
+  },
+  {
+    "icao24": "392035",
+    "callsign": "FGIBV",
+    "country": "France",
+    "latitude": 45.6407,
+    "longitude": 5.8876,
+    "altitude": 1782480868.0,
+    "speed": 52.21
+  },
+  {
+    "icao24": "393474",
+    "callsign": "FGNDU",
+    "country": "France",
+    "latitude": 46.0364,
+    "longitude": -0.8322,
+    "altitude": 1782481062.0,
+    "speed": 68.99
+  },
+  {
+    "icao24": "39dc20",
+    "callsign": "FHXBA",
+    "country": "France",
+    "latitude": 43.7699,
+    "longitude": 4.4155,
+    "altitude": 1782480904.0,
+    "speed": 40.72
+  },
+  {
+    "icao24": "3b07ff",
+    "callsign": "GTA5",
+    "country": "France",
+    "latitude": 48.7169,
+    "longitude": 2.3125,
+    "altitude": 1782480897.0,
+    "speed": 13.89
+  },
+  {
+    "icao24": "3ae7ff",
+    "callsign": "SNA3",
+    "country": "France",
+    "latitude": 48.7237,
+    "longitude": 2.3596,
+    "altitude": 1782481012.0,
+    "speed": 14.4
+  },
+  {
+    "icao24": "38111a",
+    "callsign": "FWWDJ",
+    "country": "France",
+    "latitude": 43.6165,
+    "longitude": 1.3634,
+    "altitude": 1782481057.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "38113c",
+    "callsign": "FJTIG",
+    "country": "France",
+    "latitude": 45.4038,
+    "longitude": 6.0162,
+    "altitude": 1782481009.0,
+    "speed": 37.64
+  },
+  {
+    "icao24": "39dd48",
+    "callsign": "CCM31ED",
+    "country": "France",
+    "latitude": 43.4633,
+    "longitude": 5.5082,
+    "altitude": 1782481063.0,
+    "speed": 99.59
+  },
+  {
+    "icao24": "39dd41",
+    "callsign": "CCM54ZU",
+    "country": "France",
+    "latitude": 48.7266,
+    "longitude": 2.3564,
+    "altitude": 1782481000.0,
+    "speed": 0.77
+  },
+  {
+    "icao24": "386d7d",
+    "callsign": "FJJJY",
+    "country": "France",
+    "latitude": 47.3409,
+    "longitude": -2.0273,
+    "altitude": 1782481063.0,
+    "speed": 44.54
+  },
+  {
+    "icao24": "39ca61",
+    "callsign": "TLJ140N",
+    "country": "France",
+    "latitude": 45.7386,
+    "longitude": 4.9394,
+    "altitude": 1782481062.0,
+    "speed": 64.31
+  },
+  {
+    "icao24": "39dd59",
+    "callsign": "CCM47MO",
+    "country": "France",
+    "latitude": 45.3203,
+    "longitude": 5.4675,
+    "altitude": 1782481063.0,
+    "speed": 139.36
+  },
+  {
+    "icao24": "39dd54",
+    "callsign": "CCM53AH",
+    "country": "France",
+    "latitude": 41.5361,
+    "longitude": 9.1517,
+    "altitude": 1782480946.0,
+    "speed": 73.92
+  },
+  {
+    "icao24": "39dd53",
+    "callsign": "CCM26U",
+    "country": "France",
+    "latitude": 48.4682,
+    "longitude": 2.2995,
+    "altitude": 1782481063.0,
+    "speed": 153.33
+  },
+  {
+    "icao24": "3811fa",
+    "callsign": "13294",
+    "country": "France",
+    "latitude": 43.6164,
+    "longitude": 1.3605,
+    "altitude": 1782480977.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "39ca91",
+    "callsign": "PXR21PL",
+    "country": "France",
+    "latitude": 39.7872,
+    "longitude": 8.5856,
+    "altitude": 1782481063.0,
+    "speed": 71.3
+  },
+  {
+    "icao24": "39dd01",
+    "callsign": "TVF25RY",
+    "country": "France",
+    "latitude": 44.5761,
+    "longitude": -7.0621,
+    "altitude": 1782481062.0,
+    "speed": 254.6
+  },
+  {
+    "icao24": "3824bd",
+    "callsign": "FJGNB",
+    "country": "France",
+    "latitude": 49.1714,
+    "longitude": 3.7875,
+    "altitude": 1782481060.0,
+    "speed": 75.97
+  },
+  {
+    "icao24": "39b96a",
+    "callsign": "FHOLK",
+    "country": "France",
+    "latitude": 43.2716,
+    "longitude": 5.7492,
+    "altitude": 1782480803.0,
+    "speed": 33.44
+  },
+  {
+    "icao24": "3965a7",
+    "callsign": "AFR006",
+    "country": "France",
+    "latitude": 49.6884,
+    "longitude": -4.3446,
+    "altitude": 1782481062.0,
+    "speed": 258.85
+  },
+  {
+    "icao24": "3965b4",
+    "callsign": "AFR442",
+    "country": "France",
+    "latitude": 44.655,
+    "longitude": -11.4856,
+    "altitude": 1782481062.0,
+    "speed": 244.06
+  },
+  {
+    "icao24": "3965b1",
+    "callsign": "AFR090",
+    "country": "France",
+    "latitude": 49.0286,
+    "longitude": -5.6186,
+    "altitude": 1782481063.0,
+    "speed": 248.48
+  },
+  {
+    "icao24": "39a2e3",
+    "callsign": "FPO273",
+    "country": "France",
+    "latitude": 42.296,
+    "longitude": 4.1473,
+    "altitude": 1782481062.0,
+    "speed": 236.6
+  },
+  {
+    "icao24": "39a2e2",
+    "callsign": "TVF25CB",
+    "country": "France",
+    "latitude": 40.4477,
+    "longitude": 18.0284,
+    "altitude": 1782481062.0,
+    "speed": 229.35
+  },
+  {
+    "icao24": "39a2e1",
+    "callsign": "FPO171",
+    "country": "France",
+    "latitude": 47.9038,
+    "longitude": 2.3702,
+    "altitude": 1782481062.0,
+    "speed": 205.85
+  },
+  {
+    "icao24": "38ca9c",
+    "callsign": "FJKZL",
+    "country": "France",
+    "latitude": 44.2449,
+    "longitude": 4.0111,
+    "altitude": 1782481062.0,
+    "speed": 79.78
+  },
+  {
+    "icao24": "39c940",
+    "callsign": "",
+    "country": "France",
+    "latitude": 48.7253,
+    "longitude": 2.373,
+    "altitude": 1782481056.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "39666f",
+    "callsign": "FPO535",
+    "country": "France",
+    "latitude": 44.5613,
+    "longitude": 8.662,
+    "altitude": 1782481062.0,
+    "speed": 222.35
+  },
+  {
+    "icao24": "39a3fb",
+    "callsign": "AIB101",
+    "country": "France",
+    "latitude": 47.0258,
+    "longitude": -1.0888,
+    "altitude": 1782481063.0,
+    "speed": 233.61
+  },
+  {
+    "icao24": "39413b",
+    "callsign": "FAZQV",
+    "country": "France",
+    "latitude": 45.6359,
+    "longitude": 4.458,
+    "altitude": 1782481062.0,
+    "speed": 105.59
+  },
+  {
+    "icao24": "3b776b",
+    "callsign": "CTM1245",
+    "country": "France",
+    "latitude": 48.9834,
+    "longitude": -0.0752,
+    "altitude": 1782481060.0,
+    "speed": 135.94
+  },
+  {
+    "icao24": "394a06",
+    "callsign": "AFR50N",
+    "country": "France",
+    "latitude": 49.4578,
+    "longitude": -3.0578,
+    "altitude": 1782481062.0,
+    "speed": 248.4
+  },
+  {
+    "icao24": "394a09",
+    "callsign": "AFR702",
+    "country": "France",
+    "latitude": 45.0985,
+    "longitude": -0.0199,
+    "altitude": 1782481062.0,
+    "speed": 239.1
+  },
+  {
+    "icao24": "394a13",
+    "callsign": "AFR650",
+    "country": "France",
+    "latitude": 48.9561,
+    "longitude": -1.4638,
+    "altitude": 1782481062.0,
+    "speed": 247.3
+  },
+  {
+    "icao24": "394a0c",
+    "callsign": "AFR182",
+    "country": "France",
+    "latitude": 46.0844,
+    "longitude": 16.0966,
+    "altitude": 1782481062.0,
+    "speed": 256.96
+  },
+  {
+    "icao24": "395d66",
+    "callsign": "BGA132G",
+    "country": "France",
+    "latitude": 48.2992,
+    "longitude": 0.1129,
+    "altitude": 1782481062.0,
+    "speed": 191.24
+  },
+  {
+    "icao24": "390408",
+    "callsign": "FGBAI",
+    "country": "France",
+    "latitude": 48.7474,
+    "longitude": -1.5927,
+    "altitude": 1782480881.0,
+    "speed": 62.51
+  },
+  {
+    "icao24": "39aded",
+    "callsign": "FHLPN",
+    "country": "France",
+    "latitude": 44.5762,
+    "longitude": 12.6704,
+    "altitude": 1782481063.0,
+    "speed": 235.09
+  },
+  {
+    "icao24": "388161",
+    "callsign": "MOUET1",
+    "country": "France",
+    "latitude": 43.6557,
+    "longitude": 7.2175,
+    "altitude": 1782474522.0,
+    "speed": 1.03
+  },
+  {
+    "icao24": "39ae2a",
+    "callsign": "FHLRK",
+    "country": "France",
+    "latitude": 45.5163,
+    "longitude": 3.0229,
+    "altitude": 1782481062.0,
+    "speed": 204.07
+  },
+  {
+    "icao24": "39ae32",
+    "callsign": "BEJ17S",
+    "country": "France",
+    "latitude": 44.7594,
+    "longitude": 10.0133,
+    "altitude": 1782481062.0,
+    "speed": 207.78
+  },
+  {
+    "icao24": "3b7546",
+    "callsign": "COPE25",
+    "country": "France",
+    "latitude": 45.6665,
+    "longitude": 0.1677,
+    "altitude": 1782481062.0,
+    "speed": 99.24
+  },
+  {
+    "icao24": "39bdaf",
+    "callsign": "AFR1889",
+    "country": "France",
+    "latitude": 49.0273,
+    "longitude": 2.5719,
+    "altitude": 1782481042.0,
+    "speed": 66.6
+  },
+  {
+    "icao24": "39bda3",
+    "callsign": "AFR35BR",
+    "country": "France",
+    "latitude": 47.4611,
+    "longitude": 8.5502,
+    "altitude": 1782481062.0,
+    "speed": 8.75
+  },
+  {
+    "icao24": "39bda0",
+    "callsign": "AFR7412",
+    "country": "France",
+    "latitude": 43.9647,
+    "longitude": 1.3418,
+    "altitude": 1782481062.0,
+    "speed": 140.83
+  },
+  {
+    "icao24": "3b7568",
+    "callsign": "FAF4140",
+    "country": "France",
+    "latitude": 44.3375,
+    "longitude": 3.4446,
+    "altitude": 1782481062.0,
+    "speed": 183.14
+  },
+  {
+    "icao24": "39ab12",
+    "callsign": "CRL984",
+    "country": "France",
+    "latitude": 48.7281,
+    "longitude": 2.3724,
+    "altitude": 1782481061.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "39ac8f",
+    "callsign": "FHLEP",
+    "country": "France",
+    "latitude": 43.4756,
+    "longitude": 5.3956,
+    "altitude": 1782481062.0,
+    "speed": 36.01
+  },
+  {
+    "icao24": "39ac15",
+    "callsign": "FHLAV",
+    "country": "France",
+    "latitude": 45.9804,
+    "longitude": 6.0559,
+    "altitude": 1782481060.0,
+    "speed": 40.46
+  },
+  {
+    "icao24": "39cead",
+    "callsign": "TVF61RA",
+    "country": "France",
+    "latitude": 44.3405,
+    "longitude": 5.3003,
+    "altitude": 1782481062.0,
+    "speed": 199.25
+  },
+  {
+    "icao24": "39cea1",
+    "callsign": "TVF735B",
+    "country": "France",
+    "latitude": 45.4538,
+    "longitude": -0.4054,
+    "altitude": 1782481063.0,
+    "speed": 246.63
+  },
+  {
+    "icao24": "39cea4",
+    "callsign": "TVF512A",
+    "country": "France",
+    "latitude": 47.3626,
+    "longitude": 10.5007,
+    "altitude": 1782481062.0,
+    "speed": 235.39
+  },
+  {
+    "icao24": "39cea5",
+    "callsign": "TVF63YH",
+    "country": "France",
+    "latitude": 41.554,
+    "longitude": 13.9959,
+    "altitude": 1782481063.0,
+    "speed": 227.14
+  },
+  {
+    "icao24": "39cea6",
+    "callsign": "TVF86JW",
+    "country": "France",
+    "latitude": 41.5544,
+    "longitude": -6.3541,
+    "altitude": 1782481063.0,
+    "speed": 273.04
+  },
+  {
+    "icao24": "39cea0",
+    "callsign": "TVF98NV",
+    "country": "France",
+    "latitude": 38.6927,
+    "longitude": -1.0297,
+    "altitude": 1782481062.0,
+    "speed": 217.94
+  },
+  {
+    "icao24": "3949ea",
+    "callsign": "AFR284",
+    "country": "France",
+    "latitude": 40.891,
+    "longitude": 42.7183,
+    "altitude": 1782481062.0,
+    "speed": 284.03
+  },
+  {
+    "icao24": "39cf09",
+    "callsign": "AFR416",
+    "country": "France",
+    "latitude": 46.4502,
+    "longitude": -8.9432,
+    "altitude": 1782481063.0,
+    "speed": 247.54
+  },
+  {
+    "icao24": "39cf06",
+    "callsign": "AFR435",
+    "country": "France",
+    "latitude": 49.3597,
+    "longitude": 0.2809,
+    "altitude": 1782481062.0,
+    "speed": 212.37
+  },
+  {
+    "icao24": "3949e6",
+    "callsign": "AFR902",
+    "country": "France",
+    "latitude": 45.5318,
+    "longitude": 2.9289,
+    "altitude": 1782481063.0,
+    "speed": 246.82
+  },
+  {
+    "icao24": "3949f7",
+    "callsign": "AFR218",
+    "country": "France",
+    "latitude": 45.7224,
+    "longitude": 22.1193,
+    "altitude": 1782481062.0,
+    "speed": 257.65
+  },
+  {
+    "icao24": "3949f8",
+    "callsign": "AFR430",
+    "country": "France",
+    "latitude": 48.7099,
+    "longitude": -8.5975,
+    "altitude": 1782481056.0,
+    "speed": 233.4
+  },
+  {
+    "icao24": "39bce8",
+    "callsign": "FHPHI",
+    "country": "France",
+    "latitude": 45.8749,
+    "longitude": 4.9318,
+    "altitude": 1782481063.0,
+    "speed": 46.34
+  },
+  {
+    "icao24": "38295a",
+    "callsign": "2132ER7",
+    "country": "France",
+    "latitude": 43.6195,
+    "longitude": 1.3644,
+    "altitude": 1782481048.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "39ccc7",
+    "callsign": "FHTGH",
+    "country": "France",
+    "latitude": 40.0188,
+    "longitude": 24.5056,
+    "altitude": 1782481060.0,
+    "speed": 61.64
+  },
+  {
+    "icao24": "39364d",
+    "callsign": "FGNSN",
+    "country": "France",
+    "latitude": 45.5952,
+    "longitude": 3.1928,
+    "altitude": 1782481062.0,
+    "speed": 92.64
+  },
+  {
+    "icao24": "39cd33",
+    "callsign": "ITI23KZ",
+    "country": "France",
+    "latitude": 46.8078,
+    "longitude": 6.3009,
+    "altitude": 1782481062.0,
+    "speed": 116.39
+  },
+  {
+    "icao24": "39bb24",
+    "callsign": "AFR38YN",
+    "country": "France",
+    "latitude": 34.5165,
+    "longitude": -6.9091,
+    "altitude": 1782481062.0,
+    "speed": 189.83
+  },
+  {
+    "icao24": "39bb25",
+    "callsign": "AFR39KK",
+    "country": "France",
+    "latitude": 48.1136,
+    "longitude": 4.2036,
+    "altitude": 1782481062.0,
+    "speed": 204.24
+  },
+  {
+    "icao24": "39bb23",
+    "callsign": "AFR31PQ",
+    "country": "France",
+    "latitude": 47.5738,
+    "longitude": -0.2891,
+    "altitude": 1782481062.0,
+    "speed": 257.66
+  },
+  {
+    "icao24": "3b7b66",
+    "callsign": "BENGA96",
+    "country": "France",
+    "latitude": 43.998,
+    "longitude": 2.1922,
+    "altitude": 1782481063.0,
+    "speed": 96.69
+  },
+  {
+    "icao24": "39d315",
+    "callsign": "TVF95DU",
+    "country": "France",
+    "latitude": 48.7245,
+    "longitude": 2.3678,
+    "altitude": 1782481044.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "39d318",
+    "callsign": "TVF44KH",
+    "country": "France",
+    "latitude": 43.283,
+    "longitude": -1.8439,
+    "altitude": 1782481063.0,
+    "speed": 249.85
+  },
+  {
+    "icao24": "39d30c",
+    "callsign": "TVF25FR",
+    "country": "France",
+    "latitude": 44.9151,
+    "longitude": 0.0021,
+    "altitude": 1782481063.0,
+    "speed": 212.81
+  },
+  {
+    "icao24": "39d30f",
+    "callsign": "TVF95SA",
+    "country": "France",
+    "latitude": 38.2536,
+    "longitude": 24.454,
+    "altitude": 1782481062.0,
+    "speed": 231.95
+  },
+  {
+    "icao24": "39e682",
+    "callsign": "AFR98JB",
+    "country": "France",
+    "latitude": 49.6686,
+    "longitude": 6.1305,
+    "altitude": 1782481062.0,
+    "speed": 236.25
+  },
+  {
+    "icao24": "39e683",
+    "callsign": "AFR51PD",
+    "country": "France",
+    "latitude": 46.2212,
+    "longitude": 3.4292,
+    "altitude": 1782481063.0,
+    "speed": 218.81
+  },
+  {
+    "icao24": "391b39",
+    "callsign": "FGGZZ",
+    "country": "France",
+    "latitude": 43.9071,
+    "longitude": 4.5296,
+    "altitude": 1782481062.0,
+    "speed": 49.05
+  },
+  {
+    "icao24": "3995ce",
+    "callsign": "FYG81HF",
+    "country": "France",
+    "latitude": 46.0936,
+    "longitude": 8.6724,
+    "altitude": 1782481063.0,
+    "speed": 199.47
+  },
+  {
+    "icao24": "39d1a8",
+    "callsign": "FHUNI1",
+    "country": "France",
+    "latitude": 43.3337,
+    "longitude": 7.8887,
+    "altitude": 1782481063.0,
+    "speed": 70.94
+  },
+  {
+    "icao24": "39e4ac",
+    "callsign": "AFR15FE",
+    "country": "France",
+    "latitude": 46.9009,
+    "longitude": 12.405,
+    "altitude": 1782481062.0,
+    "speed": 242.72
+  },
+  {
+    "icao24": "39d306",
+    "callsign": "TVF26UN",
+    "country": "France",
+    "latitude": 43.938,
+    "longitude": -0.8357,
+    "altitude": 1782481062.0,
+    "speed": 209.65
+  },
+  {
+    "icao24": "39d301",
+    "callsign": "TVF38ZQ",
+    "country": "France",
+    "latitude": 45.9069,
+    "longitude": 5.0717,
+    "altitude": 1782481062.0,
+    "speed": 94.73
+  },
+  {
+    "icao24": "393fdc",
+    "callsign": "FJAKB",
+    "country": "France",
+    "latitude": 48.3957,
+    "longitude": -0.1962,
+    "altitude": 1782481060.0,
+    "speed": 62.97
+  },
+  {
+    "icao24": "38e95c",
+    "callsign": "FJEHK",
+    "country": "France",
+    "latitude": 46.2055,
+    "longitude": 5.2879,
+    "altitude": 1782481062.0,
+    "speed": 51.96
+  },
+  {
+    "icao24": "3991e4",
+    "callsign": "AFR83HE",
+    "country": "France",
+    "latitude": 48.2873,
+    "longitude": 2.47,
+    "altitude": 1782481062.0,
+    "speed": 193.85
+  },
+  {
+    "icao24": "3bb9ff",
+    "callsign": "INFRA3",
+    "country": "France",
+    "latitude": 48.724,
+    "longitude": 2.3564,
+    "altitude": 1782481050.0,
+    "speed": 10.8
+  },
+  {
+    "icao24": "39e40c",
+    "callsign": "FHZAM",
+    "country": "France",
+    "latitude": 43.5951,
+    "longitude": 1.4938,
+    "altitude": 1782481063.0,
+    "speed": 30.37
+  },
+  {
+    "icao24": "39944d",
+    "callsign": "TLJ859V",
+    "country": "France",
+    "latitude": 49.2988,
+    "longitude": 1.4186,
+    "altitude": 1782481061.0,
+    "speed": 198.08
+  },
+  {
+    "icao24": "399425",
+    "callsign": "FHFBF",
+    "country": "France",
+    "latitude": 43.2318,
+    "longitude": 5.7121,
+    "altitude": 1782481063.0,
+    "speed": 48.55
+  },
+  {
+    "icao24": "392ae6",
+    "callsign": "AFR39TE",
+    "country": "France",
+    "latitude": 48.7223,
+    "longitude": 2.3549,
+    "altitude": 1782481047.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "392ae8",
+    "callsign": "AFR43RA",
+    "country": "France",
+    "latitude": 48.3219,
+    "longitude": 5.903,
+    "altitude": 1782481063.0,
+    "speed": 222.97
+  },
+  {
+    "icao24": "39d151",
+    "callsign": "FHUKR",
+    "country": "France",
+    "latitude": 46.1295,
+    "longitude": 5.8057,
+    "altitude": 1782480779.0,
+    "speed": 31.02
+  },
+  {
+    "icao24": "393dbb",
+    "callsign": "FCTMS",
+    "country": "France",
+    "latitude": 47.2217,
+    "longitude": 6.7146,
+    "altitude": 1782481062.0,
+    "speed": 34.07
+  },
+  {
+    "icao24": "38e83b",
+    "callsign": "AIB55IL",
+    "country": "France",
+    "latitude": 43.639,
+    "longitude": 1.3481,
+    "altitude": 1782480991.0,
+    "speed": 13.89
+  },
+  {
+    "icao24": "399260",
+    "callsign": "FHETA",
+    "country": "France",
+    "latitude": 48.9662,
+    "longitude": 2.4666,
+    "altitude": 1782480880.0,
+    "speed": 58.36
+  },
+  {
+    "icao24": "38951b",
+    "callsign": "AIB04GU",
+    "country": "France",
+    "latitude": 45.2547,
+    "longitude": -1.9816,
+    "altitude": 1782481063.0,
+    "speed": 229.44
+  },
+  {
+    "icao24": "390567",
+    "callsign": "FGBLH",
+    "country": "France",
+    "latitude": 45.2398,
+    "longitude": 4.8321,
+    "altitude": 1782481062.0,
+    "speed": 51.01
+  },
+  {
+    "icao24": "39aea7",
+    "callsign": "FHLVH",
+    "country": "France",
+    "latitude": 46.785,
+    "longitude": -0.0781,
+    "altitude": 1782480953.0,
+    "speed": 75.36
+  },
+  {
+    "icao24": "3929cc",
+    "callsign": "DSF25MO",
+    "country": "France",
+    "latitude": 47.1492,
+    "longitude": -1.4554,
+    "altitude": 1782481062.0,
+    "speed": 125.78
+  },
+  {
+    "icao24": "3b9b60",
+    "callsign": "XNONC",
+    "country": "France",
+    "latitude": 47.755,
+    "longitude": -3.3851,
+    "altitude": 1782480939.0,
+    "speed": 73.88
+  },
+  {
+    "icao24": "394c0c",
+    "callsign": "AFR71KE",
+    "country": "France",
+    "latitude": 45.5709,
+    "longitude": 2.45,
+    "altitude": 1782481062.0,
+    "speed": 228.31
+  },
+  {
+    "icao24": "394ce0",
+    "callsign": "FGTHA",
+    "country": "France",
+    "latitude": 44.3962,
+    "longitude": 5.9566,
+    "altitude": 1782481063.0,
+    "speed": 43.95
+  },
+  {
+    "icao24": "38e69c",
+    "callsign": "FJDTO",
+    "country": "France",
+    "latitude": 46.981,
+    "longitude": 7.2211,
+    "altitude": 1782481063.0,
+    "speed": 71.83
+  },
+  {
+    "icao24": "3bc7ff",
+    "callsign": "ORYR4",
+    "country": "France",
+    "latitude": 48.7255,
+    "longitude": 2.3664,
+    "altitude": 1782481041.0,
+    "speed": 6.17
+  },
+  {
+    "icao24": "3b27ff",
+    "callsign": "FLYCO5",
+    "country": "France",
+    "latitude": 48.7199,
+    "longitude": 2.3166,
+    "altitude": 1782481045.0,
+    "speed": 7.46
+  },
+  {
+    "icao24": "389f1b",
+    "callsign": "AIB03NI",
+    "country": "France",
+    "latitude": 43.8627,
+    "longitude": -0.2167,
+    "altitude": 1782481062.0,
+    "speed": 240.18
+  },
+  {
+    "icao24": "39644c",
+    "callsign": "AFR832",
+    "country": "France",
+    "latitude": 42.4586,
+    "longitude": -1.7205,
+    "altitude": 1782481062.0,
+    "speed": 223.78
+  },
+  {
+    "icao24": "39b465",
+    "callsign": "FHNDF",
+    "country": "France",
+    "latitude": 46.4164,
+    "longitude": 0.1883,
+    "altitude": 1782481049.0,
+    "speed": 80.34
+  },
+  {
+    "icao24": "39b44e",
+    "callsign": "DJT520",
+    "country": "France",
+    "latitude": 47.1323,
+    "longitude": -1.7164,
+    "altitude": 1782481062.0,
+    "speed": 246.56
+  },
+  {
+    "icao24": "395160",
+    "callsign": "FGULA",
+    "country": "France",
+    "latitude": 43.0935,
+    "longitude": 1.6793,
+    "altitude": 1782481063.0,
+    "speed": 56.67
+  },
+  {
+    "icao24": "3964eb",
+    "callsign": "TVF79GC",
+    "country": "France",
+    "latitude": 41.1678,
+    "longitude": -8.5299,
+    "altitude": 1782481062.0,
+    "speed": 149.39
+  },
+  {
+    "icao24": "3964e0",
+    "callsign": "TVF21ED",
+    "country": "France",
+    "latitude": 47.8086,
+    "longitude": 1.8561,
+    "altitude": 1782481062.0,
+    "speed": 199.42
+  },
+  {
+    "icao24": "3964e8",
+    "callsign": "TVF27CR",
+    "country": "France",
+    "latitude": 47.5706,
+    "longitude": 1.7594,
+    "altitude": 1782481062.0,
+    "speed": 222.53
+  },
+  {
+    "icao24": "3964e9",
+    "callsign": "TVF4409",
+    "country": "France",
+    "latitude": 48.7467,
+    "longitude": 2.5072,
+    "altitude": 1782481063.0,
+    "speed": 77.25
+  },
+  {
+    "icao24": "3964f1",
+    "callsign": "TVF8392",
+    "country": "France",
+    "latitude": 39.1974,
+    "longitude": 6.6288,
+    "altitude": 1782481062.0,
+    "speed": 250.55
+  },
+  {
+    "icao24": "3964f4",
+    "callsign": "TVF99SL",
+    "country": "France",
+    "latitude": 44.0927,
+    "longitude": 20.2814,
+    "altitude": 1782481063.0,
+    "speed": 242.19
+  },
+  {
+    "icao24": "3964f3",
+    "callsign": "TVF75YW",
+    "country": "France",
+    "latitude": 47.4949,
+    "longitude": 2.4245,
+    "altitude": 1782481062.0,
+    "speed": 192.32
+  },
+  {
+    "icao24": "3951c1",
+    "callsign": "AFR6722",
+    "country": "France",
+    "latitude": 49.0594,
+    "longitude": 0.3361,
+    "altitude": 1782481063.0,
+    "speed": 242.27
+  },
+  {
+    "icao24": "3964f9",
+    "callsign": "TVF455M",
+    "country": "France",
+    "latitude": 48.5515,
+    "longitude": 1.9809,
+    "altitude": 1782481062.0,
+    "speed": 171.34
+  },
+  {
+    "icao24": "3964f7",
+    "callsign": "TVF759",
+    "country": "France",
+    "latitude": 47.1173,
+    "longitude": 4.0767,
+    "altitude": 1782481062.0,
+    "speed": 227.19
+  },
+  {
+    "icao24": "39b262",
+    "callsign": "FHMTC",
+    "country": "France",
+    "latitude": 43.2425,
+    "longitude": 0.2,
+    "altitude": 1782481063.0,
+    "speed": 34.14
+  },
+  {
+    "icao24": "39b1c0",
+    "callsign": "FHMOA",
+    "country": "France",
+    "latitude": 44.9352,
+    "longitude": 3.4698,
+    "altitude": 1782480842.0,
+    "speed": 61.39
+  },
+  {
+    "icao24": "3b25ff",
+    "callsign": "FLYCO4",
+    "country": "France",
+    "latitude": 48.7197,
+    "longitude": 2.3174,
+    "altitude": 1782481022.0,
+    "speed": 16.46
+  },
+  {
+    "icao24": "39b22e",
+    "callsign": "CMA627",
+    "country": "France",
+    "latitude": 46.2819,
+    "longitude": 7.3868,
+    "altitude": 1782481062.0,
+    "speed": 257.74
+  },
+  {
+    "icao24": "39b220",
+    "callsign": "FHMRA",
+    "country": "France",
+    "latitude": 44.8748,
+    "longitude": 1.5215,
+    "altitude": 1782480845.0,
+    "speed": 66.93
+  },
+  {
+    "icao24": "39b228",
+    "callsign": "CMA054",
+    "country": "France",
+    "latitude": 40.6936,
+    "longitude": 47.5603,
+    "altitude": 1782481062.0,
+    "speed": 274.44
+  },
+  {
+    "icao24": "39a071",
+    "callsign": "FHIDR",
+    "country": "France",
+    "latitude": 46.1933,
+    "longitude": -1.2181,
+    "altitude": 1782481030.0,
+    "speed": 38.89
+  },
+  {
+    "icao24": "39c5c6",
+    "callsign": "OYO2",
+    "country": "France",
+    "latitude": 48.4558,
+    "longitude": 6.2088,
+    "altitude": 1782481062.0,
+    "speed": 158.3
+  },
+  {
+    "icao24": "39c672",
+    "callsign": "PUMAB",
+    "country": "France",
+    "latitude": 44.5532,
+    "longitude": -1.2191,
+    "altitude": 1782481062.0,
+    "speed": 72.26
+  },
+  {
+    "icao24": "39b014",
+    "callsign": "FHMAU",
+    "country": "France",
+    "latitude": 43.483,
+    "longitude": 5.3908,
+    "altitude": 1782480854.0,
+    "speed": 63.8
+  },
+  {
+    "icao24": "3985a3",
+    "callsign": "AFR4245",
+    "country": "France",
+    "latitude": 48.728,
+    "longitude": 2.3578,
+    "altitude": 1782481060.0,
+    "speed": 4.37
+  },
+  {
+    "icao24": "3985a4",
+    "callsign": "AFR92HL",
+    "country": "France",
+    "latitude": 44.8618,
+    "longitude": -0.9286,
+    "altitude": 1782481062.0,
+    "speed": 254.73
+  },
+  {
+    "icao24": "3985a1",
+    "callsign": "AFR21JE",
+    "country": "France",
+    "latitude": 48.7273,
+    "longitude": 2.3578,
+    "altitude": 1782481062.0,
+    "speed": 0.51
+  },
+  {
+    "icao24": "3985a6",
+    "callsign": "AFR363V",
+    "country": "France",
+    "latitude": 36.5153,
+    "longitude": -5.5354,
+    "altitude": 1782481063.0,
+    "speed": 244.25
+  },
+  {
+    "icao24": "3985a7",
+    "callsign": "AFR37EQ",
+    "country": "France",
+    "latitude": 39.5855,
+    "longitude": -8.6492,
+    "altitude": 1782481062.0,
+    "speed": 148.93
+  },
+  {
+    "icao24": "398602",
+    "callsign": "AFR1507",
+    "country": "France",
+    "latitude": 48.9998,
+    "longitude": 2.632,
+    "altitude": 1782480824.0,
+    "speed": 63.45
+  },
+  {
+    "icao24": "398603",
+    "callsign": "AFR73GC",
+    "country": "France",
+    "latitude": 43.9108,
+    "longitude": -0.3564,
+    "altitude": 1782481062.0,
+    "speed": 213.64
+  },
+  {
+    "icao24": "39c494",
+    "callsign": "FWI42P",
+    "country": "France",
+    "latitude": 48.9559,
+    "longitude": -9.3609,
+    "altitude": 1782481063.0,
+    "speed": 256.0
+  },
+  {
+    "icao24": "39c466",
+    "callsign": "BEJ37G",
+    "country": "France",
+    "latitude": 48.4817,
+    "longitude": 3.596,
+    "altitude": 1782481061.0,
+    "speed": 145.66
+  },
+  {
+    "icao24": "39614c",
+    "callsign": "FGYKM",
+    "country": "France",
+    "latitude": 44.6913,
+    "longitude": -0.6041,
+    "altitude": 1782480963.0,
+    "speed": 37.68
+  },
+  {
+    "icao24": "3999e4",
+    "callsign": "PEA302",
+    "country": "France",
+    "latitude": 46.954,
+    "longitude": 6.0368,
+    "altitude": 1782481063.0,
+    "speed": 179.19
+  },
+  {
+    "icao24": "39c48d",
+    "callsign": "FBU47G",
+    "country": "France",
+    "latitude": 48.9549,
+    "longitude": 2.0255,
+    "altitude": 1782481062.0,
+    "speed": 199.03
+  },
+  {
+    "icao24": "3986e7",
+    "callsign": "AFR18SQ",
+    "country": "France",
+    "latitude": 48.8539,
+    "longitude": 1.9136,
+    "altitude": 1782481062.0,
+    "speed": 177.9
+  },
+  {
+    "icao24": "3986e4",
+    "callsign": "AFR77YY",
+    "country": "France",
+    "latitude": 43.9531,
+    "longitude": -0.7081,
+    "altitude": 1782481062.0,
+    "speed": 215.87
+  },
+  {
+    "icao24": "3986e9",
+    "callsign": "AFR78PT",
+    "country": "France",
+    "latitude": 43.5583,
+    "longitude": 5.2315,
+    "altitude": 1782481063.0,
+    "speed": 114.16
+  },
+  {
+    "icao24": "3b35ff",
+    "callsign": "LA3",
+    "country": "France",
+    "latitude": 48.7259,
+    "longitude": 2.339,
+    "altitude": 1782481041.0,
+    "speed": 0.0
+  },
+  {
+    "icao24": "389c1b",
+    "callsign": "AIBHJ04",
+    "country": "France",
+    "latitude": 43.6346,
+    "longitude": 1.3528,
+    "altitude": 1782480915.0,
+    "speed": 11.32
+  },
+  {
+    "icao24": "39d6a0",
+    "callsign": "VLJ426K",
+    "country": "France",
+    "latitude": 47.3652,
+    "longitude": 1.0622,
+    "altitude": 1782481062.0,
+    "speed": 179.55
+  },
+  {
+    "icao24": "39c423",
+    "callsign": "AFR194",
+    "country": "France",
+    "latitude": 40.8069,
+    "longitude": 48.1887,
+    "altitude": 1782481063.0,
+    "speed": 295.01
+  },
+  {
+    "icao24": "39c425",
+    "callsign": "AFR181",
+    "country": "France",
+    "latitude": 41.4787,
+    "longitude": 35.7015,
+    "altitude": 1782480939.0,
+    "speed": 240.09
+  },
+  {
+    "icao24": "39c427",
+    "callsign": "AFR468",
+    "country": "France",
+    "latitude": 45.9776,
+    "longitude": -8.8884,
+    "altitude": 1782481062.0,
+    "speed": 237.41
+  },
+  {
+    "icao24": "39c420",
+    "callsign": "AFR471A",
+    "country": "France",
+    "latitude": -5.8952,
+    "longitude": -37.3497,
+    "altitude": 1782481063.0,
+    "speed": 263.37
+  },
+  {
+    "icao24": "39c422",
+    "callsign": "AFR292",
+    "country": "France",
+    "latitude": 48.3413,
+    "longitude": 8.1603,
+    "altitude": 1782481062.0,
+    "speed": 259.15
+  },
+  {
+    "icao24": "39b101",
+    "callsign": "FBU73D",
+    "country": "France",
+    "latitude": 42.066,
+    "longitude": 18.2642,
+    "altitude": 1782481062.0,
+    "speed": 257.21
+  },
+  {
+    "icao24": "398495",
+    "callsign": "CCM24NQ",
+    "country": "France",
+    "latitude": 44.7111,
+    "longitude": 8.2292,
+    "altitude": 1782481062.0,
+    "speed": 241.9
+  },
+  {
+    "icao24": "3aabfb",
+    "callsign": "FMY8048",
+    "country": "France",
+    "latitude": 48.8832,
+    "longitude": 6.2405,
+    "altitude": 1782481056.0,
+    "speed": 83.37
+  },
+  {
+    "icao24": "39d2a7",
+    "callsign": "AFR062",
+    "country": "France",
+    "latitude": 49.5938,
+    "longitude": -3.7568,
+    "altitude": 1782481063.0,
+    "speed": 258.45
+  },
+  {
+    "icao24": "39d2a0",
+    "callsign": "AFR356G",
+    "country": "France",
+    "latitude": 49.1082,
+    "longitude": 1.5726,
+    "altitude": 1782481062.0,
+    "speed": 180.57
+  },
+  {
+    "icao24": "39d2a1",
+    "callsign": "AFR264",
+    "country": "France",
+    "latitude": 48.7594,
+    "longitude": 4.6562,
+    "altitude": 1782481063.0,
+    "speed": 235.22
+  },
+  {
+    "icao24": "39d2a2",
+    "callsign": "AFR081",
+    "country": "France",
+    "latitude": 49.0348,
+    "longitude": 2.7143,
+    "altitude": 1782481063.0,
+    "speed": 86.73
+  },
+  {
+    "icao24": "392da4",
+    "callsign": "TJT36WP",
+    "country": "France",
+    "latitude": 45.0509,
+    "longitude": 0.0535,
+    "altitude": 1782481062.0,
+    "speed": 129.53
+  },
+  {
+    "icao24": "392daa",
+    "callsign": "ITI187C",
+    "country": "France",
+    "latitude": 47.5189,
+    "longitude": -2.1002,
+    "altitude": 1782481063.0,
+    "speed": 125.48
+  },
+  {
+    "icao24": "398579",
+    "callsign": "AFR64SV",
+    "country": "France",
+    "latitude": 44.9752,
+    "longitude": 1.3326,
+    "altitude": 1782481063.0,
+    "speed": 220.1
+  },
+  {
+    "icao24": "398577",
+    "callsign": "AFR18YX",
+    "country": "France",
+    "latitude": 48.1517,
+    "longitude": 6.1893,
+    "altitude": 1782481062.0,
+    "speed": 231.86
+  },
+  {
+    "icao24": "39856b",
+    "callsign": "AFR45FZ",
+    "country": "France",
+    "latitude": 45.6412,
+    "longitude": 0.4228,
+    "altitude": 1782481062.0,
+    "speed": 217.62
+  },
+  {
+    "icao24": "39856f",
+    "callsign": "AFR78WT",
+    "country": "France",
+    "latitude": 49.8246,
+    "longitude": 8.507,
+    "altitude": 1782481062.0,
+    "speed": 142.1
+  },
+  {
+    "icao24": "390a09",
+    "callsign": "FGCQJ",
+    "country": "France",
+    "latitude": 43.9527,
+    "longitude": 3.4929,
+    "altitude": 1782481061.0,
+    "speed": 72.51
+  },
+  {
+    "icao24": "392eaa",
+    "callsign": "FGLVK",
+    "country": "France",
+    "latitude": 48.9493,
+    "longitude": 1.8492,
+    "altitude": 1782481058.0,
+    "speed": 60.27
+  },
+  {
+    "icao24": "398561",
+    "callsign": "KLM26F",
+    "country": "France",
+    "latitude": 48.9647,
+    "longitude": 3.1052,
+    "altitude": 1782481062.0,
+    "speed": 254.3
+  },
+  {
+    "icao24": "398562",
+    "callsign": "AFR48DN",
+    "country": "France",
+    "latitude": 48.9924,
+    "longitude": 2.4872,
+    "altitude": 1782481061.0,
+    "speed": 82.58
+  },
+  {
+    "icao24": "398563",
+    "callsign": "AFR84BM",
+    "country": "France",
+    "latitude": 49.0208,
+    "longitude": 2.5148,
+    "altitude": 1782481062.0,
+    "speed": 75.83
+  },
+  {
+    "icao24": "39d521",
+    "callsign": "FHVJB",
+    "country": "France",
+    "latitude": 43.9051,
+    "longitude": 4.8862,
+    "altitude": 1782481062.0,
+    "speed": 65.75
   }
 ]
