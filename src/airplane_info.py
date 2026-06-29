@@ -16,24 +16,53 @@ class AirplaneInfo:
     """
     Класс для хранения информации о самолете.
     """
-    def __init__(self, data):
+
+    class AirplaneInfo:
+        icao24: str
+        callsign: str
+        country: str
+        latitude: float
+        longitude: float
+        altitude: float
+        speed: float
+
+    def __init__(self, data: list):
+        """
+        Инициализирует объект из СПИСКА данных.
+        Данные поступают в формате [ICAO24, CALLSIGN, COUNTRY, ALTITUDE, ...]
+        """
         self.icao24 = "N/A"
         self.callsign = "N/A"
-        self.country = "N/A"
+        self.country = "N/A"  # Страна будет установлена позже клиентом API
         self.latitude = 0.0
         self.longitude = 0.0
         self.altitude = 0.0
         self.speed = 0.0
 
         try:
-            self.icao24 = str(data[ICAO24]) if data[ICAO24] is not None else "N/A"
-            self.callsign = str(data[CALLSIGN]).strip() if data[CALLSIGN] is not None else "N/A"
-            self.country = str(data[COUNTRY]) if data[COUNTRY] is not None else "N/A"
-            self.latitude = float(data[LATITUDE]) if data[LATITUDE] is not None else 0.0
-            self.longitude = float(data[LONGITUDE]) if data[LONGITUDE] is not None else 0.0
-            self.altitude = float(data[ALTITUDE]) if data[ALTITUDE] is not None else 0.0
-            self.speed = float(data[SPEED]) if data[SPEED] is not None else 0.0
-        except (IndexError, TypeError):
+            # Используем константы-индексы для доступа к элементам списка
+            # Проверяем длину списка, чтобы избежать IndexError
+            if len(data) > ICAO24 and data[ICAO24] is not None:
+                self.icao24 = str(data[ICAO24])
+
+            if len(data) > CALLSIGN and data[CALLSIGN] is not None:
+                self.callsign = str(data[CALLSIGN]).strip()
+
+            # Координаты и высота могут быть None, поэтому проверяем перед преобразованием во float
+            if len(data) > LATITUDE and data[LATITUDE] is not None:
+                self.latitude = float(data[LATITUDE])
+
+            if len(data) > LONGITUDE and data[LONGITUDE] is not None:
+                self.longitude = float(data[LONGITUDE])
+
+            if len(data) > ALTITUDE and data[ALTITUDE] is not None:
+                self.altitude = float(data[ALTITUDE])
+
+            if len(data) > SPEED and data[SPEED] is not None:
+                self.speed = float(data[SPEED])
+
+        except (IndexError, TypeError, ValueError):
+            # Если структура данных неожиданная, оставляем значения по умолчанию
             pass
 
         self._validate()
@@ -51,6 +80,16 @@ class AirplaneInfo:
             return False
         return self.icao24 == other.icao24
 
+    def is_higher_than(self, other: "AirplaneInfo") -> bool:
+        if not isinstance(other, AirplaneInfo):
+            return NotImplemented
+        return self.altitude > other.altitude
+
+    def is_faster_than(self, other: "AirplaneInfo") -> bool:
+        if not isinstance(other, AirplaneInfo):
+            return NotImplemented
+        return self.speed > other.speed
+
     def __gt__(self, other):
         """
         Сравнение "больше чем".
@@ -63,7 +102,7 @@ class AirplaneInfo:
         """Возвращает человекочитаемое представление объекта."""
         return (f"Самолет {self.callsign} (ICAO24: {self.icao24}) из {self.country}. "
                 f"Текущие координаты: {self.latitude:.2f}, {self.longitude:.2f}. "
-                f"Летит на высоте {self.altitude} м со скоростью {self.speed} узлов.")
+                f"Летит на высоте {self.altitude} и со скоростью {self.speed} узлов.")
 
     def to_dict(self):
         """Преобразует объект в словарь для сохранения в JSON."""
@@ -136,7 +175,7 @@ class JsonAirplaneStorage(AirplaneStorage):
         with open(self.filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
-    def add_airplane_info(self, airplane_info):
+    def add_airplane_info(self, airplane_info: AirplaneInfo):
         """Добавляет информацию о самолете в хранилище."""
         data = self._load_data()
         if not any(obj.get('icao24') == airplane_info.icao24 for obj in data):
@@ -148,11 +187,7 @@ class JsonAirplaneStorage(AirplaneStorage):
         data = self._load_data()
         results = []
         for obj in data:
-            match = True
-            for key, value in criteria.items():
-                if obj.get(key) != value:
-                    match = False
-                    break
+            match = all(str(obj.get(key)) == str(value) for key, value in criteria.items())
             if match:
                 results.append(AirplaneInfo.from_dict(obj))
         return results

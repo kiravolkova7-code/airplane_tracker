@@ -1,37 +1,22 @@
-from src.user_interaction import main
 from unittest.mock import patch
+from src.user_interaction import main
 
 
-@patch('builtins.input')
-@patch('src.working_with_API.NominatimApiClient')
-def test_main_country_not_found(mock_nominatim_class, mock_input, capsys):
-    mock_input.side_effect = ['UnknownCountry']
+@patch('src.user_interaction.input', side_effect=["", "Testland", "50", "60", "30", "40", "1"])
+@patch('src.user_interaction.NominatimApiClient')
+@patch('src.user_interaction.OpenSkyApiClient')
+def test_main_network_error(mock_opensky_class, mock_nominatim_class, mock_input, capsys):
+    """
+    Тест обработки исключения при запросе к API.
+    """
+    mock_nominatim_instance = mock_nominatim_class.return_value
+    mock_nominatim_instance.get_country_bounding_box.return_value = (50.0, 60.0, 30.0, 40.0)
 
-    mock_nominatim_client = mock_nominatim_class.return_value
-    mock_nominatim_client.get_country_bounding_box.return_value = None
-
-    main()
-
-    captured = capsys.readouterr()
-    output = captured.out
-
-    assert "[ERROR] Не удалось найти границы для страны: UnknownCountry" in output
-
-
-@patch('builtins.input')
-def test_main_invalid_coordinates(mock_input, capsys):
-    mock_input.side_effect = [
-        'Russia',
-        '60.0',
-        '50.0',
-        '30.0',
-        '40.0',
-        '2'
-    ]
+    mock_opensky_instance = mock_opensky_class.return_value
+    mock_opensky_instance.get_aircraft_in_area.side_effect = Exception("Bad Gateway")
 
     main()
 
-    captured = capsys.readouterr()
-    output = captured.out
-
-    assert "[ERROR] Ошибка: минимальная координата должна быть меньше максимальной." in output
+    captured = capsys.readouterr().out
+    mock_opensky_instance.get_aircraft_in_area.assert_called_once_with(lamin=50.0, lamax=60.0, lomin=30.0, lomax=40.0)
+    assert "[ERROR] Неизвестная ошибка при запросе к API: Bad Gateway" in captured
